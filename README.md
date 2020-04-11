@@ -7,6 +7,13 @@ Simples POST/GET
 ```
 implementation 'com.squareup.okhttp3:okhttp:+'
 ```
+## Erro com urls http:// no app?
+
+Solução no manifest
+```
+<application
+        android:usesCleartextTraffic="true"
+```
 
 ## Codigos
 
