@@ -1,4 +1,4 @@
-# SampleApiOkHttp
+# Exemplo do uso de OkHttp
 
 Exemplo do uso de OkHttp Libary
 Simples POST/GET
