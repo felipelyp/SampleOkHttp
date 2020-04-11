@@ -10,8 +10,8 @@ implementation 'com.squareup.okhttp3:okhttp:+'
 
 ## Codigos
 
-* [Java](http://www.dropwizard.io/1.0.2/docs/) - ServiceApi.java
-* [Kotlin](http://www.dropwizard.io/1.0.2/docs/) - ServiceApi.kt
+* [Java](https://github.com/xzflow/SampleOkHttp/blob/master/ServiceApi.java) - ServiceApi.java
+* [Kotlin](https://github.com/xzflow/SampleOkHttp/blob/master/ServiceApi.kt) - ServiceApi.kt
 
 
 ## R8 / ProGuard
