@@ -80,7 +80,7 @@ public class ServiceApi implements Callback {
     }
 
     /**
-     * Fazer um GE
+     * Fazer um GET
      *
      * @param url URL para solicitar
      */
@@ -109,10 +109,10 @@ public class ServiceApi implements Callback {
     private MediaType checkMediaType(String body) {
         try {
             new JSONObject(body);
-            // { "status": 1 }
+            // { "id":1, status": 0 }
             return MediaType.get("application/json");
         } catch (JSONException e) {
-            // nome=ZzFlow&senha=1234
+            // id=1&status=0
             return MediaType.get("application/x-www-form-urlencoded");
         }
     }
