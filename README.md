@@ -4,13 +4,13 @@ Simples POST/GET
 
 ## Instalação
 
-```
+```gradle
 implementation 'com.squareup.okhttp3:okhttp:+'
 ```
 ## Erro com protocolos http:// no app?
 
 Solução no manifest
-```
+```xml
 <application
         android:usesCleartextTraffic="true"
 ```
